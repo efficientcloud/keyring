@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_VERBOSE=1
+
+DESTPATH=debian/efc-keyring/opt/efc/keyring
+
+override_dh_auto_install:
+	install -d $(DESTPATH)
+	install -m 0644 efc-keyring.gpg $(DESTPATH)/
+
+%:
+	dh $@
+

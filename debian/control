@@ -1,0 +1,12 @@
+Source: efc-keyring
+Section: efc
+Priority: optional
+Maintainer: EfficientCloud Technical Staff <support@efficientcloud.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: efc-keyring
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: EfficientCloud Archive Signing Keys
+ EfficientCloud Archive Signing Keys

@@ -1,0 +1,5 @@
+efc-keyring (1.0.0) unstable; urgency=low
+
+  * Initial EfficientCloud release.
+
+ -- Christian Hofstaedtler <c.hofstaedtler@efficientcloud.com>  Wed, 29 Jun 2011 12:05:33 +0200
