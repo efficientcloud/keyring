@@ -3,11 +3,11 @@
 
 export DH_VERBOSE=1
 
-DESTPATH=debian/efc-keyring/opt/efc/keyring
+DESTPATH=debian/hs-keyring/usr/share/keyring/
 
 override_dh_auto_install:
 	install -d $(DESTPATH)
-	install -m 0644 efc-keyring.gpg $(DESTPATH)/
+	install -m 0644 hs-keyring.gpg $(DESTPATH)/
 
 %:
 	dh $@

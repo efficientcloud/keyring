@@ -1,3 +1,9 @@
+hs-keyring (1.0.1) unstable; urgency=low
+
+  * HostingStack.
+
+ -- Christian Hofstaedtler <christian@hofstaedtler.name>  Tue, 13 Dec 2011 18:38:17 +0100
+
 efc-keyring (1.0.0) unstable; urgency=low
 
   * Initial EfficientCloud release.

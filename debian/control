@@ -1,12 +1,12 @@
-Source: efc-keyring
-Section: efc
+Source: hs-keyring
+Section: admin
 Priority: optional
-Maintainer: EfficientCloud Technical Staff <support@efficientcloud.com>
+Maintainer: HostingStack Maintainers <maintainers@hostingstack.com>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.9.2
 
-Package: efc-keyring
+Package: hs-keyring
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: EfficientCloud Archive Signing Keys
- EfficientCloud Archive Signing Keys
+Description: HostingStack Archive Signing Keys
+ HostingStack Archive Signing Keys

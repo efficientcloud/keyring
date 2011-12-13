@@ -1,0 +1,4 @@
+debian/files
+debian/hs-keyring.debhelper.log
+debian/hs-keyring.substvars
+debian/hs-keyring/
